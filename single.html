@@ -1,0 +1,363 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FARM SEEDS</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<!--Custom-Theme-files-->
+	<!--theme-style-->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--//theme-style-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Продажа семян, дачный сезон,семена, купить семяна " />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!--start-menu-->
+	<script src="js/simpleCart.min.js"></script>
+	<link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+	<script type="text/javascript" src="js/memenu.js"></script>
+	<script>$(document).ready(function () { $(".memenu").memenu(); });</script>
+	<!--dropdown-->
+	<script src="js/jquery.easydropdown.js"></script>
+	<script type="text/javascript">
+		$(function () {
+
+			var menu_ul = $('.menu_drop > li > ul'),
+				menu_a = $('.menu_drop > li > a');
+
+			menu_ul.hide();
+
+			menu_a.click(function (e) {
+				e.preventDefault();
+				if (!$(this).hasClass('active')) {
+					menu_a.removeClass('active');
+					menu_ul.filter(':visible').slideUp('normal');
+					$(this).addClass('active').next().stop(true, true).slideDown('normal');
+				} else {
+					$(this).removeClass('active');
+					$(this).next().stop(true, true).slideUp('normal');
+				}
+			});
+
+		});
+	</script>
+</head>
+<body>
+	<!--top-header-->
+	<div class="top-header">
+		<div class="container">
+			<div class="top-header-main">
+				<div class="col-md-6 top-header-left">
+					<div class="drop">
+						<div class="box">
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="col-md-6 top-header-left">
+				<div class="cart box_1">
+					<a href="#">
+						<div class="total">
+							<span class="simpleCart_total"></span>
+						</div>
+						<img src="images/cart-1.png" alt="" />
+					</a>
+					<p><a href="javascript:;" class="simpleCart_empty">Отчистить корзину</a></p>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	</div>
+	<!--top-header-->
+	<!--start-logo-->
+	<div class="logo">
+		<a href="index.html"><h1>Farm Seeds</h1></a>
+	</div>
+	<!--start-logo-->
+	<!--bottom-header-->
+	<div class="header-bottom">
+		<div class="container">
+			<div class="header">
+				<div class="col-md-9 header-left">
+					<div class="top-nav">
+						<ul class="memenu skyblue">
+							<li class="active"><a href="index.html">Главная страница</a></li>
+
+							</li>
+							<li class="grid">
+								<a href="contact.html">Связаться</a>
+							</li>
+						</ul>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-3 header-right">
+					<div class="search-bar">
+						<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+						<input type="submit" value="">
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--start-breadcrumbs-->
+	<div class="breadcrumbs">
+		<div class="container">
+			<div class="breadcrumbs-main">
+				<ol class="breadcrumb">
+					<li><a href="index.html">Главная страница</a></li>
+					<li class="active">Товар</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+	<!--end-breadcrumbs-->
+	<!--start-single-->
+	<div class="single contact">
+		<div class="container">
+			<div class="single-main">
+				<div class="col-md-9 single-main-left">
+					<div class="sngl-top">
+						<div class="col-md-5 single-top-left">
+							<div class="flexslider">
+								<ul class="slides">
+									<li data-thumb="images/s-1.jpg">
+										<div class="thumb-image"> <img src="images/s-1.jpg" data-imagezoom="true" class="img-responsive" alt="" /> </div>
+									</li>
+									<li data-thumb="images/s-2.jpg">
+										<div class="thumb-image"> <img src="images/s-2.jpg" data-imagezoom="true" class="img-responsive" alt="" /> </div>
+									</li>
+									<li data-thumb="images/s-3.jpg">
+										<div class="thumb-image"> <img src="images/s-3.jpg" data-imagezoom="true" class="img-responsive" alt="" /> </div>
+									</li>
+								</ul>
+							</div>
+							<!-- FlexSlider -->
+							<script src="js/imagezoom.js"></script>
+							<script defer src="js/jquery.flexslider.js"></script>
+							<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+							<script>
+								// Can also be used with $(document).ready()
+								$(window).load(function () {
+									$('.flexslider').flexslider({
+										animation: "slide",
+										controlNav: "thumbnails"
+									});
+								});
+							</script>
+						</div>
+						<div class="col-md-7 single-top-right">
+							<div class="single-para simpleCart_shelfItem">
+								<h2>ТОМАТ БЫЧЬЕ СЕРДЦЕ</h2>
+								<div class="star-on">
+									<ul class="star-footer">
+										<li><a href="#"><i> </i></a></li>
+										<li><a href="#"><i> </i></a></li>
+										<li><a href="#"><i> </i></a></li>
+										<li><a href="#"><i> </i></a></li>
+										<li><a href="#"><i> </i></a></li>
+									</ul>
+									<div class="review">
+										<a href="#"> 1 пользовательский отзыв </a>
+
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+
+								<h5 class="item_price">₽ 17.00</h5>
+								<p>
+									Семена Томат Бычье сердце красное.
+									Среднеспелый сорт-гигант для защищенного грунта. Прекрасно подходит для садоводов, предпочитающих выращивать в теплицах крупноплодные сорта томатов. Растение индетерминантное, мощное, высотой 1,5-2,0 м, что позволяет полностью использовать объем теплицы. Плоды любимой всеми сердцевидной формы, красные, мясистые, великолепного вкуса. Впечатляет размер плодов – от 400-600 гр до 1,5 кг, причем, чем лучше уход за растением, тем крупнее плоды и обильнее урожай.
+								</p>
+
+								<a href="#" class="add-cart item_add">Добавить в корзину</a>
+
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="tabs">
+						<ul class="menu_drop">
+							<li class="item1">
+								<a href="#"><img src="images/arrow.png" alt="">Отзывы (1)</a>
+								<ul>
+									<li class="subitem1"><a href="#">Достоинства: Сладкие, мясистые, хорошая всхожесть</a></li>
+									<li class="subitem2"><a href="#">Комментарий: Очень люблю семена данной фирмы, наглядно видны семена, помидоры бычье сердце буду сажать третий год, всхожесть что процентная, плоды приблизительно по 500 грамм - идеально для салата, вкусные и сладкие и мясистые, куст высотой около полутора метров, подходят как для теплицы так и для грунта,</a></li>
+								</ul>
+							</li>
+							<li class="item2">
+								<a href="#"><img src="images/arrow.png" alt="">Полезные ссылки</a>
+								<ul>
+									<li class="subitem2"><a href="https://youtu.be/v_fk841DL9A?si=hV3tay_RfidOs6nf">Как надо правиольно сажать томат: https://youtu.be/v_fk841DL9A?si=hV3tay_RfidOs6nf</a></li>
+									<li class="subitem3"><a href="https://www.ozon.ru/club/article/kak-pravilno-sazhat-pomidory-7-glavnyh-pravil-4775/">Как правильно сажать помидоры: 7 главных правил:https://www.ozon.ru/club/article/kak-pravilno-sazhat-pomidory-7-glavnyh-pravil-4775/ </a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="latestproducts">
+						<div class="product-one">
+							<div class="col-md-4 product-left p-left">
+								<div class="product-main simpleCart_shelfItem">
+									<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-1.png" alt="" /></a>
+									<div class="product-bottom">
+										<h3>ТОМАТ БЫЧЬЕ СЕРДЦЕ</h3>
+										<p>СЕМЕНА ТОМАТ БЫЧЬЕ СЕРДЦЕ КРАСНОЕ</p>
+										<h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">₽ 17</span></h4>
+									</div>
+									<div class="srch">
+										<span>-50%</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 product-left p-left">
+								<div class="product-main simpleCart_shelfItem">
+									<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-2.png" alt="" /></a>
+									<div class="product-bottom">
+										<h3>ДЫНЯ БЛОНДИ F1</h3>
+										<p>СЕМЕНА ДЫНЯ БЛОНДИ F1</p>
+										<h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">₽ 21</span></h4>
+									</div>
+									<div class="srch">
+										<span>-50%</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 product-left p-left">
+								<div class="product-main simpleCart_shelfItem">
+									<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-3.png" alt="" /></a>
+									<div class="product-bottom">
+										<h3>ЗЕМЛЯНИКА КОРОЛЕВА ЕЛИЗАВЕТА</h3>
+										<p>СЕМЕНА ЗЕМЛЯНИКА КОРОЛЕВА ЕЛИЗАВЕТА КРУПНОПЛОДНАЯ</p>
+										<h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">₽ 38</span></h4>
+									</div>
+									<div class="srch">
+										<span>-50%</span>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 single-right">
+					<div class="w_sidebar">
+						<section class="sky-form">
+							<h4>Категории</h4>
+							<div class="row1 scroll-pane">
+								<div class="col col-4">
+									<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Все категории</label>
+								</div>
+								<div class="col col-4">
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Овощи</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Фрукты</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Ягоды</label>
+								</div>
+							</div>
+						</section>
+						<section class="sky-form">
+							<h4>Производители</h4>
+							<div class="row1 row2 scroll-pane">
+								<div class="col col-4">
+									<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Сибирский Сад</label>
+								</div>
+								<div class="col col-4">
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Гавриш</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Аэлита</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Уральский Дачник</label>
+									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Семена СеДеК</label>
+								</div>
+							</div>
+						</section>
+						<section class="sky-form">
+							<h4>Скидка</h4>
+							<div class="row1 row2 scroll-pane">
+								<div class="col col-4">
+									<label class="radio"><input type="radio" name="radio" checked=""><i></i>60 % и более</label>
+									<label class="radio"><input type="radio" name="radio"><i></i>50 % и более</label>
+									<label class="radio"><input type="radio" name="radio"><i></i>40 % и болееe</label>
+								</div>
+								<div class="col col-4">
+									<label class="radio"><input type="radio" name="radio"><i></i>30 % и более</label>
+									<label class="radio"><input type="radio" name="radio"><i></i>20 % и более</label>
+									<label class="radio"><input type="radio" name="radio"><i></i>10 % и более</label>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--end-single-->
+	<!--information-starts-->
+	<div class="information">
+		<div class="container">
+			<div class="infor-top">
+				<div class="col-md-3 infor-left">
+					<h3>Подпишись</h3>
+					<ul>
+						<li><a href="#"><span class="fb"></span><h6>Facebook</h6></a></li>
+						<li><a href="#"><span class="twit"></span><h6>Twitter</h6></a></li>
+						<li><a href="#"><span class="google"></span><h6>Google+</h6></a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 infor-left">
+					<h3>Информация</h3>
+					<ul>
+						<li><a href="#"><p>Специальное</p></a></li>
+						<li><a href="#"><p>Новые продукты</p></a></li>
+						<li><a href="#"><p>Магазин</p></a></li>
+						<li><a href="contact.html"><p>Информация о нас</p></a></li>
+						<li><a href="#"><p>Топ продавцов</p></a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 infor-left">
+					<h3>Аккаунт</h3>
+					<ul>
+						<li><a href="#"><p>Аккаунт</p></a></li>
+						<li><a href="#"><p>Покупки</p></a></li>
+						<li><a href="#"><p>Возврат товара</p></a></li>
+						<li><a href="#"><p>Персональная информация</p></a></li>
+						<li><a href="#"><p>Адрес</p></a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 infor-left">
+					<h3>Информация о магазине</h3>
+					<h4>
+						FARM SEEDS,
+						<span>РГАУ МСХА 1 КОРПУС</span>
+						Лиственничная аллея, 4А, Москва
+					</h4>
+					<h5>7(330)589-75-73</h5>
+					<p><a href="mailto:armeyskiy.a@list.ru">armeyskiy.a@list.ru</a></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--information-end-->
+	<!--footer-starts-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-6 footer-left">
+					<form>
+						<input type="text" value="Enter Your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Your Email';}">
+						<input type="submit" value="Subscribe">
+					</form>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--footer-end-->
+</body>
+</html>
